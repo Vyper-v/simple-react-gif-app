@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import AddCategory from './components/AddCategory';
 import GifLayout from './components/GifLayout';
 
-function GifExpertApp(  ){
+function GifExpertApp(props){
   const [categories, setCategories] = useState(["Overwatch"]);
 
   function handleAdd(category){

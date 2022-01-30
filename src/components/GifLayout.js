@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react';
 import PropTypes from 'prop-types';
 
 import Gif from './Gif';
-import getGifs from '../helpers/getGifs';
 import { useFetchGifs } from '../hooks/useFechGifs';
 import './GifLayout.css'
 

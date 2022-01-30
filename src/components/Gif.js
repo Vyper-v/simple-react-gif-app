@@ -8,6 +8,9 @@ const Gif = ({title,url}) => {
   </div>;
 };
 
-Gif.propTypes = {};
+Gif.propTypes = {
+  title: PropTypes.string,
+  url: PropTypes.string
+};
 
 export default Gif;
