@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddCategory Component tests should be rendered correctly 1`] = `
+<form
+  className="flex flex-col"
+  onSubmit={[Function]}
+>
+  <input
+    className="p-1 outline-1"
+    onChange={[Function]}
+    placeholder="Type something..."
+    type="text"
+    value=""
+  />
+</form>
+`;

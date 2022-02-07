@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifLayout debe mostrar items cuando se cargan imagenes con useFetchGifhs 1`] = `
+<div
+  className="grid autoLayout gap-2"
+>
+  <Gif
+    id="ABC"
+    key="ABC"
+    title="Cualquier cosa"
+    url="https://localhost/cualquiercosa.jpg"
+  />
+  <Gif
+    id="123"
+    key="123"
+    title="Cualquier cosa"
+    url="https://localhost/cualquiercosa.jpg"
+  />
+</div>
+`;
+
+exports[`GifLayout should rendered 1`] = `
+<div
+  className="grid autoLayout gap-2"
+>
+  <p
+    className="text-center"
+  >
+    Loading...
+  </p>
+</div>
+`;

@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app test should be rendered 1`] = `
+<div>
+  <div
+    className=" container mx-auto divide-y divide-neutral-500 divide-dashed"
+  >
+    <h2
+      className="text-4xl mb-8 leading-normal"
+    >
+      GifExpertApp
+    </h2>
+    <div
+      className="flex justify-between px-2 py-4"
+    >
+      <AddCategory
+        setCategories={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="container mx-auto space-y-2"
+  />
+</div>
+`;
+
+exports[`app test should show categories list 1`] = `
+<div>
+  <div
+    className=" container mx-auto divide-y divide-neutral-500 divide-dashed"
+  >
+    <h2
+      className="text-4xl mb-8 leading-normal"
+    >
+      GifExpertApp
+    </h2>
+    <div
+      className="flex justify-between px-2 py-4"
+    >
+      <AddCategory
+        setCategories={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="container mx-auto space-y-2"
+  >
+    <div
+      key="Dragon Ball Z"
+    >
+      <a
+        className="text-2xl m-2 inline-block text-lime-700 hover:text-lime-600"
+        href="#Dragon Ball Z"
+      >
+        # 
+        Dragon Ball Z
+      </a>
+      <GifLayout
+        category="Dragon Ball Z"
+        id="Dragon Ball Z"
+      />
+    </div>
+    <div
+      key="One Piece"
+    >
+      <a
+        className="text-2xl m-2 inline-block text-lime-700 hover:text-lime-600"
+        href="#One Piece"
+      >
+        # 
+        One Piece
+      </a>
+      <GifLayout
+        category="One Piece"
+        id="One Piece"
+      />
+    </div>
+  </div>
+</div>
+`;

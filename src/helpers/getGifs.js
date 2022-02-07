@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 async function getGifs(category,limit=3){
   const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=${limit}&api_key=${process.env.REACT_APP_API_KEY}`;
   const response = await fetch(url);
@@ -10,6 +12,15 @@ async function getGifs(category,limit=3){
     }
   })
   return cleanData;
+}
+
+getGifs.propTypes = {
+  category: PropTypes.string.isRequired,
+  limit: PropTypes.number
+}
+
+getGifs.defaultProps = {
+  limit: 3
 }
 
 export default getGifs;

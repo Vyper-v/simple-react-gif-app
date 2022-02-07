@@ -10,8 +10,10 @@ function AddCategory({ setCategories }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (value !== '')
-      setCategories(value);
+    if (value !== ''){
+      setCategories(categs => [value,...categs]);
+      setValue('');
+    }
   }
 
   return (
